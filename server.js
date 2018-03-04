@@ -6,9 +6,9 @@ const exphbs = require("express-handlebars");
 const app = express();
 const port = process.env.PORT || 8080;
 
-const router = require("./controllers/burgers_controller.js");
+const routes = require("./controllers/burgers_controller.js");
 
-app.use("/", router);
+app.use("/", routes);
 // Parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
