@@ -28,7 +28,7 @@ const connection = mysql.createConnection({
     host: "e764qqay0xlsc4cz.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     user: "m109mxkzfcwxpxjv",
     password: "a4420yarpnhkvmyz",
-    database: "burgers_db"
+    database: "axezms6mtacks9wj"
 });
 
 
