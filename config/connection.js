@@ -14,13 +14,29 @@
 
 const mysql = require("mysql");
 
+// const connection = mysql.createConnection({
+//     port: 3306,
+//     host: "localhost",
+//     user: "root",
+//     password: "NeptunePluto101",
+//     database: "burgers_db"
+// });
+
+
 const connection = mysql.createConnection({
     port: 3306,
-    host: "localhost",
-    user: "root",
-    password: "NeptunePluto101",
+    host: "e764qqay0xlsc4cz.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    user: "m109mxkzfcwxpxjv",
+    password: "a4420yarpnhkvmyz",
     database: "burgers_db"
 });
+
+
+
+
+
+
+
 
 connection.connect(function(err) {
     if (err) {
